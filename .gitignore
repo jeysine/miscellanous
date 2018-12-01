@@ -1,0 +1,27 @@
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+build/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*/out/
+*/build/
+*/gradle/
+/target/ 
+
+.classpath
+.project
+.settings      
+ ##filter databfile、sln file##
+*.mdb  
+*.ldb  
+*.sln    
+##class file##
+*.class  
+ 
+# compression file 
+*.jar  
